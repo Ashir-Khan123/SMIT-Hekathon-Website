@@ -1,0 +1,410 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+/* navbar */
+.my-navbar{
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1030;
+    background-color: #F3F3F3;
+    padding: 20px 0px;
+}
+.navbar .logo-image{
+    margin-left:30px;
+    max-width: 100%;
+}
+.navbar-nav{
+    padding-left: 210px;
+}
+.nav-item{
+    padding-left: 15px;
+   
+}
+.nav-link{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: #191A23;
+}
+.btn{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-weight: 600;
+}
+
+                                    /* hero-section */
+
+.hero-section{
+    margin-top: 140px;
+}
+.hero-main-content h1{
+    max-width: 100%;
+    color: black;
+    font-size: 55px;
+    font-family: Space Grotesk;
+}
+.hero-main-content p{
+    color: black;
+    margin-left: 0px;
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 75%;
+    font-family: Space Grotesk;
+}
+
+.hero-image{
+    margin-top: -15px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.btn-1{
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #191A23;
+    color: white;
+    outline: none;
+    width: 50%;
+    font-family: Space Grotesk;
+}
+
+                            /* brands */
+
+.brands{
+    margin-top: 100px;
+    margin-left:35px;
+    align-items: center;
+}
+.brand-images{
+    max-width: 80%;
+    height: auto;
+}
+
+                            /* service */
+
+.service{
+    margin-top: 130px;
+}
+.main-content-service{
+    display: flex;
+}
+.main-content-service p{
+    padding-left: 30px;
+    font-weight: 500;
+    width: 65%;
+    font-family: Space Grotesk;
+}
+.service-card{
+    margin-top: 50px;
+}
+.card-1{
+    background-color: #F3F3F3;
+    display: flex;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 35px;
+    padding: 20px 0px;
+    max-width: 100%;
+}
+.card-2{
+    background-color: #B9FF66;
+    display: flex;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 35px;
+    padding: 30px 0px;
+    width: 100%;
+}
+.card-3{
+    display: none;
+}
+.card-body-1{
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 100%;
+}
+.card-body-2{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.card-img-1{
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+    padding: 30px 0px;
+}
+.card-2-img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 35px;
+    padding: 30px 0px;
+}
+.card-arrow-icon{
+    padding-left: 50px;
+    margin-top: -55px;
+}
+.card-arrow-icon span{
+    font-size: 19px ;
+    padding-top: 5px;
+    font-weight: 500;
+    padding-left: 6px;
+    font-family: Space Grotesk;
+}
+
+                                /* accordion-section */
+
+.accordion{
+    margin-top: 80px;
+}
+.accordion-main-content{
+    display: flex;
+}
+
+.accordion-main-content p{
+    font-weight: 500;
+    width: 50%;
+    margin-left: 120px;
+    font-family: Space Grotesk;
+}
+.accordion-item{
+    margin-bottom: 20px;
+}
+.accordion-item-old{
+    margin-bottom: 20px;
+}
+.accordion-header h2{
+    padding-left: 10px;
+    font-size: 55px;
+    font-family: Space Grotesk;
+}
+.accordion-header span{
+    padding-left: 25px;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Space Grotesk;
+}
+.accordion-body p{
+    padding-left: 40px;
+    padding-right: 70px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: Space Grotesk;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/minus.png");
+}
+.accordion-button::after {
+    background-image: url("../images/plus.png");
+ }
+
+                                    /* contact */
+
+.contact{
+    margin-top: 80px;
+}
+.contact-heading-content{
+    display: flex;
+}
+.contact-heading-image{
+    width: 30%;
+}
+.contact-heading-content p{
+    width: 50%;
+    margin-left: 70px;
+    font-weight: 500;
+    font-family: space Grotesk;
+}
+.contact-main-div{
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    border: transparent;
+    background-color: #F3F3F3;
+}
+.contact-main-content{
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.input-boxes{
+    padding-top: 40px;
+    font-family: space Grotesk;
+    font-weight: 100;
+    margin-bottom: 70px;
+}
+.name , .email{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 6px 0px 6px 20px;
+    width: 90%;
+}
+.message{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 6px 0px 80px 20px;
+    width: 90%;
+}
+.contact-button{
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 90%;
+    padding: 10px 0px;
+    background-color: #191A23;
+    color: #f3f2f2;
+}
+.contact-button span{
+    font-family: space Grotesk;
+}
+.radio-button{
+    font-family: space Grotesk;
+    font-weight: 200;
+    font-size: 17px;
+    padding-left: 5px;
+}
+.rad-1{
+    margin-right: 4px;
+}
+.rad-2{
+    margin-left: 14px;
+    margin-right: 4px;
+}
+
+.contact-half-image{
+    width: 80%;
+    padding-top: 80px;
+    margin-left: 60px;
+}
+
+                                /* footer */
+
+.footer{
+    margin-top: 50px;
+}
+.footer-main-div{
+    background-color: black;
+    border: 1px solid black;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-bottom: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.footer-logo{
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.my-navbar-2{
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.my-navbar-2 .items{
+    display: flex;
+    width: 100%;
+}
+.my-navbar-2 .list{
+    color: #f3f2f2;
+    text-decoration: underline;
+    font-family: Space Grotesk;
+    font-weight: 300;
+    font-size: 15px;
+}
+.my-navbar-2 .nav-item{
+    list-style-type: none;
+}
+.footer-icons{
+    color: black;
+    padding-top: 35px;
+    padding-left: 70px;
+}
+.linkdin , .facebook , .twitter{
+    margin-right: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: #f3f2f2;
+    padding: 6px 9px;
+    border-radius: 50%;
+}
+
+.footer-main-content{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.footer-text-1{
+    color: #f3f2f2;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Space Grotesk;
+}
+.footer-text-2{
+    color: #f3f2f2;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: Space Grotesk;
+}
+.footer-text-3{
+    color: #f3f2f2;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: Space Grotesk;
+}
+.footer-boxes{
+    margin-top: 30px;
+    border: 1px solid grey;
+    border: transparent;
+    border-radius: 6px;
+    padding: 60px 40px;
+    margin-right: 60px;
+    background-color: #292A32;
+}
+.footer-btn-1{
+    padding: 12px 90px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: #292A32;
+    color: white;
+}
+.footer-btn-2{
+    width: 100%;
+    padding: 12px 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    font-family: Space Grotesk;
+    border: 1px solid white;
+    background: #B9FF66;
+    color: black;
+}
+.last-content{
+    color: #f3f2f2;
+    margin-left: 50px;
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+}
+.content-1{
+    width: 27%;
+    font-weight: 300;
+    font-family: space Grotesk;
+}
+.content-2{
+    padding-bottom: 50px;
+    font-family: space Grotesk;
+}
